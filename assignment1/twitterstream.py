@@ -45,7 +45,7 @@ def twitterreq(url, method, parameters):
 
   response = opener.open(url, encoded_post_data)
 
-  return response
+  return responsesublime 
 
 def fetchsamples():
   url = "https://stream.twitter.com/1/statuses/sample.json"
